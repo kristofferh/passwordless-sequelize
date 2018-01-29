@@ -6,6 +6,10 @@
   "repository": "git@github.com:kristofferh/passwordless-sequelize.git",
   "author": "Kristoffer Hedstrom <kris.hedstrom@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "yarn lint && mocha test"
+  },
   "dependencies": {
     "bcrypt": "^1.0.3",
     "sequelize": "^4.32.2"

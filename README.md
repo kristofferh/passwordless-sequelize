@@ -101,7 +101,7 @@ app.use(passwordless.acceptToken());
 new PasswordlessSequelize(model);
 ```
 
-* **model:** _(String)_ Mandatory. The sequelize model you want to act on.
+* **model:** _(Sequelize.Model)_ Mandatory. The sequelize model you want to act on.
 
 ## Hash and salt
 

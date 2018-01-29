@@ -101,11 +101,11 @@ app.use(passwordless.acceptToken());
 new PasswordlessSequelize(model);
 ```
 
-* **connectionString:** _(String)_ Mandatory. Sequelize model
+* **model:** _(String)_ Mandatory. The sequelize model you want to act on.
 
 ## Hash and salt
 
-As the tokens are equivalent to passwords (even though only for a limited time) they have to be protected in the same way. `passwordless-sequelize` uses [bcrypt](https://github.com/ncb000gt/node.bcrypt.js/) with automatically created random salts. To generate the salt 10 rounds are used.
+As the tokens are equivalent to passwords (even though only for a limited time) they have to be protected in the same way. `passwordless-sequelize` uses [bcrypt](https://github.com/ncb000gt/node.bcrypt.js/) with automatically created random salts. To generate the salt, 10 rounds are used.
 
 ## Tests
 

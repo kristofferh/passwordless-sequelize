@@ -1,0 +1,7 @@
+test
+README.md
+coverage*
+.github
+.editorconfig
+.eslintrc.json
+yarn.lock
